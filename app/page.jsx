@@ -45,8 +45,8 @@ const page = () => {
             <section className={"h-[843px]"}>
                 <div className=" object-center mt-16 mr-auto mb-0 ml-auto">{/* h-[53px] w-[527px] */}
                     <h1 className="text-center font-bold text-5xl">WHY US?</h1>
-                    <p className="mt-5 mr-60 ml-60 text-center">No need to have a second thought because we specialize in the following niches</p>
-                    {/* <img src="https://www.infomin.solutions/static/images/1.jpg" alt="1" /> */}
+                    <p className="mt-5 mr-60 ml-60 text-center text-base">No need to have a second thought because we specialize in the following niches</p>
+                    <img src="https://www.infomin.solutions/static/images/1.jpg" alt="1" className="w-[547px] h-[526px] object-cover block mt-[50px] mr-[195px] mb-[50px] ml-[195px]"/>
                 </div> 
             </section>
         </div>
