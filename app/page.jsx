@@ -1,6 +1,10 @@
 // "use client";
 import { Barlow } from "next/font/google";
 import React from "react";
+import Icon1 from "./assets/svgs/icon1";
+import Icon2 from "./assets/svgs/icon2";
+import Icon3 from "./assets/svgs/icon3";
+import Icon4 from "./assets/svgs/icon4";
 
 const barlow = Barlow({
     weight: ["700"],
@@ -10,7 +14,7 @@ const barlow = Barlow({
 const page = () => {
     return (
         <div>
-            <section className="bg-purple-main h-[551px]">
+            <section className="bg-purple-main">
                 <div className={"flex justify-center"}>
                     <div className={"w-[513px] h-[550px]"}>
                         <h1
@@ -42,13 +46,49 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            <section className={"h-[843px]"}>
-                <div className=" object-center mt-16 mr-auto mb-0 ml-auto">{/* h-[53px] w-[527px] */}
-                    <h1 className="text-center font-bold text-5xl">WHY US?</h1>
-                    <p className="mt-5 mr-60 ml-60 text-center text-base">No need to have a second thought because we specialize in the following niches</p>
-                    <img src="https://www.infomin.solutions/static/images/1.jpg" alt="1" className="w-[547px] h-[526px] object-cover block mt-[50px] mr-[195px] mb-[50px] ml-[195px]"/>
-                </div> 
+            <section className="bg-white mx-auto max-w-7xl py-4 p-6 lg:px-8">
+                <div>
+                    <h1 className="text-5xl text-center mt-16">Why us?</h1>
+                    <p className="text-center mt-5">
+                        No need to have a second thought because we specialize
+                        in the following niches
+                    </p>
+                    <div className="grid grid-cols-2 gap-6 mt-10">
+                        <img
+                            src="https://www.infomin.solutions/static/images/1.jpg"
+                            alt="1"
+                            className="w-full aspect-square object-cover"
+                        />
+                        <div className="grid grid-cols-2 gap-6">
+                            <div className="bg-[#1C82B1] aspect-square">
+                                <span className="text-2xl">Development</span>
+                                <div className="h-20 w-24">
+                                    <Icon1 />
+                                </div>
+                            </div>
+                            <div className="aspect-square bg-[#8B72EE]">
+                                <span>Automation</span>
+                                <div className="h-20 w-24">
+                                    <Icon2 />
+                                </div>
+                            </div>
+                            <div className="bg-[#5D3BE7] aspect-square">
+                                <span className="">Optimization</span>
+                                <div className="h-20 w-24">
+                                    <Icon3 />
+                                </div>
+                            </div>
+                            <div className="bg-[#BD72EF] aspect-square">
+                                <span>Support</span>
+                                <div className="h-20 w-24">
+                                    <Icon4 />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
+            <section className="h-screen">hello</section>
         </div>
     );
 };
