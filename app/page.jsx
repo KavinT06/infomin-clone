@@ -60,29 +60,29 @@ const page = () => {
                             className="w-full aspect-square object-cover"
                         />
                         <div className="grid grid-cols-2 gap-6">
-                            <div className="bg-[#1C82B1] aspect-square">
-                                <span className="text-2xl">Development</span>
-                                <div className="h-20 w-24">
+                            <div className="bg-[#1C82B1] aspect-square flex flex-col justify-center items-center">
+                                <div className="w-1/4  p-3 aspect-square bg-[#29B7DD] rounded-lg">
                                     <Icon1 />
                                 </div>
+                                <span className="text-2xl m-3 text-white">Development</span>
                             </div>
-                            <div className="aspect-square bg-[#8B72EE]">
-                                <span>Automation</span>
-                                <div className="h-20 w-24">
+                            <div className="aspect-square bg-[#8B72EE] flex flex-col justify-center items-center">
+                                <div className="bg-[#29b7dd] aspect-square w-1/4 p-3 rounded-lg">
                                     <Icon2 />
                                 </div>
+                                <span className="text-2xl m-3 text-white">Automation</span>
                             </div>
-                            <div className="bg-[#5D3BE7] aspect-square">
-                                <span className="">Optimization</span>
-                                <div className="h-20 w-24">
+                            <div className="bg-[#5D3BE7] aspect-square flex flex-col justify-center items-center">
+                                <div className="w-1/4 aspect-square bg-[#29b7dd] p-3 rounded-lg">
                                     <Icon3 />
                                 </div>
+                                <span className="text-2xl m-3 text-white">Optimization</span>
                             </div>
-                            <div className="bg-[#BD72EF] aspect-square">
-                                <span>Support</span>
-                                <div className="h-20 w-24">
+                            <div className="bg-[#BD72EF] aspect-square flex flex-col items-center justify-center">
+                                <div className="w-1/4 p-3 aspect-square bg-[#29b7dd] rounded-lg">
                                     <Icon4 />
                                 </div>
+                                <span className="text-2xl text-white m-3">Support</span>
                             </div>
                         </div>
                     </div>
