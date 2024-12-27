@@ -100,7 +100,7 @@ const page = () => {
                 </div>
             </section>
             <section className="bg-[#3b065e] flex">
-                <div className=" flex-col mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                <div className="flex-col">
                     <h1
                         className={`text-white text-6xl font-bold ${barlow.className}`}
                     >
@@ -108,7 +108,7 @@ const page = () => {
                     </h1>
                     <img src="https://infomin.solutions/static/images/ssssss.jpg" />
                 </div>
-                <div className="text-white grid grid-cols-1 gap-6">
+                <div className="text-white grid grid-cols-1 gap-4">
                     <div className="">
                         <h3>01.GOALS</h3>
                         <p>
@@ -123,8 +123,8 @@ const page = () => {
                         </Link>
                     </div>
 
-                    <div>
-                        <h3 className="">02.STRATEGY</h3>
+                    <div className="">
+                        <h3>02.STRATEGY</h3>
                         <p>
                             Simplicity is our strategy, Perseverence is our path
                             - We are interested in making things possible that
