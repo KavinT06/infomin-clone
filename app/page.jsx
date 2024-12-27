@@ -5,6 +5,8 @@ import Icon1 from "./assets/svgs/icon1";
 import Icon2 from "./assets/svgs/icon2";
 import Icon3 from "./assets/svgs/icon3";
 import Icon4 from "./assets/svgs/icon4";
+import CustomButton from "./custom_button";
+import Link from "next/link";
 
 const barlow = Barlow({
     weight: ["700"],
@@ -37,6 +39,7 @@ const page = () => {
                         >
                             Request a quote
                         </button>
+                        {/* <CustomButton /> */}
                     </div>
                     <div className="w-[627px] h-[550px] text-center font-extrabold text-3xl">
                         <img
@@ -46,9 +49,9 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-white mx-auto max-w-7xl py-4 p-6 lg:px-8">
+            <section className="bg-white mx-auto max-w-7xl py-16 p-6 lg:px-8">
                 <div>
-                    <h1 className="text-5xl text-center mt-16">Why us?</h1>
+                    <h1 className="text-5xl text-center">Why us?</h1>
                     <p className="text-center mt-5">
                         No need to have a second thought because we specialize
                         in the following niches
@@ -64,31 +67,78 @@ const page = () => {
                                 <div className="w-1/4  p-3 aspect-square bg-[#29B7DD] rounded-lg">
                                     <Icon1 />
                                 </div>
-                                <span className="text-2xl m-3 text-white">Development</span>
+                                <span className="text-2xl m-3 text-white">
+                                    Development
+                                </span>
                             </div>
                             <div className="aspect-square bg-[#8B72EE] flex flex-col justify-center items-center">
                                 <div className="bg-[#29b7dd] aspect-square w-1/4 p-3 rounded-lg">
                                     <Icon2 />
                                 </div>
-                                <span className="text-2xl m-3 text-white">Automation</span>
+                                <span className="text-2xl m-3 text-white">
+                                    Automation
+                                </span>
                             </div>
                             <div className="bg-[#5D3BE7] aspect-square flex flex-col justify-center items-center">
                                 <div className="w-1/4 aspect-square bg-[#29b7dd] p-3 rounded-lg">
                                     <Icon3 />
                                 </div>
-                                <span className="text-2xl m-3 text-white">Optimization</span>
+                                <span className="text-2xl m-3 text-white">
+                                    Optimization
+                                </span>
                             </div>
                             <div className="bg-[#BD72EF] aspect-square flex flex-col items-center justify-center">
                                 <div className="w-1/4 p-3 aspect-square bg-[#29b7dd] rounded-lg">
                                     <Icon4 />
                                 </div>
-                                <span className="text-2xl text-white m-3">Support</span>
+                                <span className="text-2xl text-white m-3">
+                                    Support
+                                </span>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-            <section className="h-screen">hello</section>
+            <section className="bg-[#3b065e] flex">
+                <div className=" flex-col mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                    <h1
+                        className={`text-white text-6xl font-bold ${barlow.className}`}
+                    >
+                        Web Software Developers
+                    </h1>
+                    <img src="https://infomin.solutions/static/images/ssssss.jpg" />
+                </div>
+                <div className="text-white grid grid-cols-1 gap-6">
+                    <div className="">
+                        <h3>01.GOALS</h3>
+                        <p>
+                            Anyone can create a masterpiece but we always focus
+                            on being user-friendly - Yes, our projects are
+                            user-friendly and our team is client-friendly.
+                        </p>
+                        <Link href={"/"}>
+                            <p className="underline underline-offset-4">
+                                ABOUT US
+                            </p>
+                        </Link>
+                    </div>
+
+                    <div>
+                        <h3 className="">02.STRATEGY</h3>
+                        <p>
+                            Simplicity is our strategy, Perseverence is our path
+                            - We are interested in making things possible that
+                            appear impossible to others - And at a very
+                            affordable cost.
+                        </p>
+                        <Link href={"/"}>
+                            <p className="underline underline-offset-4">
+                                HIRE US
+                            </p>
+                        </Link>
+                    </div>
+                </div>
+            </section>
         </div>
     );
 };
