@@ -99,46 +99,43 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-[#3b065e] text-white">
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="flex">
-                        <div className="w-8/12">
-                            <h3 className={`font-bold text-6xl ${barlow.className}`}>Web Software Developers</h3>
-                            <img
-                                src="https://www.infomin.solutions/static/images/ssssss.jpg"
-                                alt="Development"
-                            />
-                        </div>
-                        <div className="w-4/12">
-                            <div className="p-16">
-                                <h1 className="font-bold text-xl">1.GOALS</h1>
-                                <p>
-                                    Anyone can create a masterpiece but we
-                                    always focus on being user-friendly - Yes,
-                                    our projects are user-friendly and our team
-                                    is client-friendly.
-                                </p>
-                                <Link href={"/"}>
-                                    <h3 className="underline underline-offset-4 m-3 font-bold">
-                                        ABOUT US
-                                    </h3>
-                                </Link>
-                            </div>
-                            <div className="p-16">
-                                <h1 className="font-bold text-xl">2.STRATEGY</h1>
-                                <p>
-                                    Simplicity is our strategy, Perseverence is
-                                    our path - We are interested in making
-                                    things possible that appear impossible to
-                                    others - And at a very affordable cost.
-                                </p>
-                                <Link href={"/"}>
-                                    <h3 className="underline underline-offset-4 m-3 font-bold">
-                                        HIRE US
-                                    </h3>
-                                </Link>
-                            </div>
-                        </div>
+            <section className="bg-[#3b065e] flex">
+                <div className="flex-col">
+                    <h1
+                        className={`text-white text-6xl font-bold ${barlow.className}`}
+                    >
+                        Web Software Developers
+                    </h1>
+                    <img src="https://infomin.solutions/static/images/ssssss.jpg" />
+                </div>
+                <div className="text-white grid grid-cols-1 gap-4">
+                    <div className="">
+                        <h3>01.GOALS</h3>
+                        <p>
+                            Anyone can create a masterpiece but we always focus
+                            on being user-friendly - Yes, our projects are
+                            user-friendly and our team is client-friendly.
+                        </p>
+                        <Link href={"/"}>
+                            <p className="underline underline-offset-4">
+                                ABOUT US
+                            </p>
+                        </Link>
+                    </div>
+
+                    <div className="">
+                        <h3>02.STRATEGY</h3>
+                        <p>
+                            Simplicity is our strategy, Perseverence is our path
+                            - We are interested in making things possible that
+                            appear impossible to others - And at a very
+                            affordable cost.
+                        </p>
+                        <Link href={"/"}>
+                            <p className="underline underline-offset-4">
+                                HIRE US
+                            </p>
+                        </Link>
                     </div>
                 </div>
             </section>
