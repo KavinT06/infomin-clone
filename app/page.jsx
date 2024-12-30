@@ -24,7 +24,7 @@ const page = () => {
                 <div className={"flex justify-center"}>
                     <div className={"w-[513px] h-[550px]"}>
                         <h1
-                            className={`${barlowf.className} text-blue-bluee text-start text-5xl mt-[62px]`}
+                            className={`text-blue-bluee text-start text-5xl mt-[62px] font-custom`}
                         >
                             Infomin Solutions
                         </h1>

@@ -59,7 +59,7 @@ const Header = () => {
                             <li>
                                 <a
                                     href="#"
-                                    className="block font-custom pb-2 md:bg-transparent md:text-[#29b7dd] dark:text-white md:dark:text-[#29b7dd] border border-[#29b7dd] border-t-0 border-l-0 border-r-0 border-b-2"
+                                    className="block pb-2 md:bg-transparent md:text-[#29b7dd] dark:text-white md:dark:text-[#29b7dd] border border-[#29b7dd] border-t-0 border-l-0 border-r-0 border-b-2"
                                     aria-current="page"
                                 >
                                     HOME
