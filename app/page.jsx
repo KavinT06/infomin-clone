@@ -235,7 +235,7 @@ const page = () => {
                                 understands the needs of the clients and makes
                                 things mutually clear about what is needed, how
                                 to be done and duration of the work before
-                                committing.{" "}
+                                committing.
                             </p>
                             <button
                                 type="button"
