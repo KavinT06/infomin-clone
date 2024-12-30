@@ -1,6 +1,5 @@
 // "use client";
-import { Barlow } from "next/font/google";
-import { Roboto } from "next/font/google";
+import { Barlow,Roboto } from "next/font/google";
 import React from "react";
 import Icon1 from "./assets/svgs/icon1";
 import Icon2 from "./assets/svgs/icon2";
@@ -9,9 +8,9 @@ import Icon4 from "./assets/svgs/icon4";
 import CustomButton from "./custom_button";
 import Link from "next/link";
 
-const barlow = Barlow({
-    weight: ["700"],
-    subsets: ["latin"],
+const barlowf = Barlow({
+    weight: ["700","400"],
+    subsets: ["latin",],
 });
 
 const roboto = Roboto({
@@ -25,7 +24,7 @@ const page = () => {
                 <div className={"flex justify-center"}>
                     <div className={"w-[513px] h-[550px]"}>
                         <h1
-                            className={`${barlow.className} text-blue-bluee text-start text-5xl mt-[62px]`}
+                            className={`${barlowf.className} text-blue-bluee text-start text-5xl mt-[62px]`}
                         >
                             Infomin Solutions
                         </h1>
@@ -109,7 +108,7 @@ const page = () => {
                     <div className="flex">
                         <div className="w-8/12">
                             <h3
-                                className={`font-bold text-6xl ${barlow.className}`}
+                                className={`font-bold text-6xl ${barlowf.className}`}
                             >
                                 Web Software Developers
                             </h3>
@@ -186,14 +185,17 @@ const page = () => {
             <section>
                 <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
                     <div className="grid grid-cols-2 gap-6">
-                    <div className="p-12">
+                        <div className="p-12">
                             <h2
                                 className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
                             >
                                 Order By Whatsapp System
                             </h2>
                             <p>
-                            Whatsapp Based E-commerce Website for small and medium businesses - Readymade but customizable as per the needs of each and every individual businesses.
+                                Whatsapp Based E-commerce Website for small and
+                                medium businesses - Readymade but customizable
+                                as per the needs of each and every individual
+                                businesses.
                             </p>
                             <button
                                 type="button"
@@ -210,23 +212,38 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8" >
-                    <div>
-                        <h1>We are directly involved in the process</h1>
-
-                        <p>We make beautiful websites, user-friendly web apps and dynamic web based softwares.</p>
-                    </div>
-                    <div>
-                        <p>
-                        We do not outsource, we are directly involved in web app making. We are down to earth in hearing the needs of each and every individual, explain everything clearly before accepting the work.
-                        </p>
-                        <p>We collaborate and co-operate with our clients to complete works on time. Our team always fully understands the needs of the clients and makes things mutually clear about what is needed, how to be done and duration of the work before committing. </p>
-                        <button
+                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                    <div className="grid grid-cols-2 gap-6">
+                        <div>
+                            <h1 className={`${barlowf.className} text-5xl p-10`}>We are directly involved in the process</h1>
+                            <div className="p-1 bg-[#00ccff] w-20 ml-10"></div>
+                            <p className={`${barlowf.className} p-10 text-3xl`}>
+                                We make beautiful websites, user-friendly web
+                                apps and dynamic web based softwares.
+                            </p>
+                        </div>
+                        <div className="text-base p-12">
+                            <p className="mb-8">
+                                We do not outsource, we are directly involved in
+                                web app making. We are down to earth in hearing
+                                the needs of each and every individual, explain
+                                everything clearly before accepting the work.
+                            </p>
+                            <p>
+                                We collaborate and co-operate with our clients
+                                to complete works on time. Our team always fully
+                                understands the needs of the clients and makes
+                                things mutually clear about what is needed, how
+                                to be done and duration of the work before
+                                committing.{" "}
+                            </p>
+                            <button
                                 type="button"
                                 className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
                             >
                                 VERY AFFORDABLE TOO
                             </button>
+                        </div>
                     </div>
                 </div>
             </section>
