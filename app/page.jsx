@@ -1,5 +1,6 @@
 // "use client";
 import { Barlow } from "next/font/google";
+import { Roboto } from "next/font/google";
 import React from "react";
 import Icon1 from "./assets/svgs/icon1";
 import Icon2 from "./assets/svgs/icon2";
@@ -13,6 +14,10 @@ const barlow = Barlow({
     subsets: ["latin"],
 });
 
+const roboto = Roboto({
+    weight: ["400", "500", "700"],
+    subsets: ["latin"],
+});
 const page = () => {
     return (
         <div>
@@ -99,43 +104,129 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            <section className="bg-[#3b065e] flex">
-                <div className="flex-col">
-                    <h1
-                        className={`text-white text-6xl font-bold ${barlow.className}`}
-                    >
-                        Web Software Developers
-                    </h1>
-                    <img src="https://infomin.solutions/static/images/ssssss.jpg" />
-                </div>
-                <div className="text-white grid grid-cols-1 gap-4">
-                    <div className="">
-                        <h3>01.GOALS</h3>
-                        <p>
-                            Anyone can create a masterpiece but we always focus
-                            on being user-friendly - Yes, our projects are
-                            user-friendly and our team is client-friendly.
-                        </p>
-                        <Link href={"/"}>
-                            <p className="underline underline-offset-4">
-                                ABOUT US
-                            </p>
-                        </Link>
+            <section className="bg-[#3b065e] text-white">
+                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                    <div className="flex">
+                        <div className="w-8/12">
+                            <h3
+                                className={`font-bold text-6xl ${barlow.className}`}
+                            >
+                                Web Software Developers
+                            </h3>
+                            <img
+                                src="https://www.infomin.solutions/static/images/ssssss.jpg"
+                                alt="Development"
+                            />
+                        </div>
+                        <div className="w-4/12">
+                            <div className="p-16">
+                                <h1 className="font-bold text-xl">1.GOALS</h1>
+                                <p>
+                                    Anyone can create a masterpiece but we
+                                    always focus on being user-friendly - Yes,
+                                    our projects are user-friendly and our team
+                                    is client-friendly.
+                                </p>
+                                <Link href={"/"}>
+                                    <h3 className="underline underline-offset-4 m-3 font-bold">
+                                        ABOUT US
+                                    </h3>
+                                </Link>
+                            </div>
+                            <div className="p-16">
+                                <h1 className="font-bold text-xl">
+                                    2.STRATEGY
+                                </h1>
+                                <p>
+                                    Simplicity is our strategy, Perseverence is
+                                    our path - We are interested in making
+                                    things possible that appear impossible to
+                                    others - And at a very affordable cost.
+                                </p>
+                                <Link href={"/"}>
+                                    <h3 className="underline underline-offset-4 m-3 font-bold">
+                                        HIRE US
+                                    </h3>
+                                </Link>
+                            </div>
+                        </div>
                     </div>
-
-                    <div className="">
-                        <h3>02.STRATEGY</h3>
-                        <p>
-                            Simplicity is our strategy, Perseverence is our path
-                            - We are interested in making things possible that
-                            appear impossible to others - And at a very
-                            affordable cost.
-                        </p>
-                        <Link href={"/"}>
-                            <p className="underline underline-offset-4">
-                                HIRE US
+                </div>
+            </section>
+            <section>
+                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                    <div className="grid grid-cols-2 gap-6">
+                        <img
+                            src="https://www.infomin.solutions/static/images/Untitled-1-min1.jpg"
+                            alt="web solutions"
+                        />
+                        <div className="p-12">
+                            <h2
+                                className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
+                            >
+                                All Web Solutions
+                            </h2>
+                            <p>
+                                We are at your service for any web based
+                                automation works, web app developments, static
+                                and dynamic websites and customizations. We are
+                                dedicated in creating new value through digital
+                                transformation at a very affordable cost.
                             </p>
-                        </Link>
+                            <button
+                                type="button"
+                                className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
+                            >
+                                Request a quote
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
+                    <div className="grid grid-cols-2 gap-6">
+                    <div className="p-12">
+                            <h2
+                                className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
+                            >
+                                Order By Whatsapp System
+                            </h2>
+                            <p>
+                            Whatsapp Based E-commerce Website for small and medium businesses - Readymade but customizable as per the needs of each and every individual businesses.
+                            </p>
+                            <button
+                                type="button"
+                                className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
+                            >
+                                CLICK TO KNOW MORE
+                            </button>
+                        </div>
+                        <img
+                            src="https://www.infomin.solutions/static/images/wh.jpg"
+                            alt="Order Whatsapp"
+                        />
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8" >
+                    <div>
+                        <h1>We are directly involved in the process</h1>
+
+                        <p>We make beautiful websites, user-friendly web apps and dynamic web based softwares.</p>
+                    </div>
+                    <div>
+                        <p>
+                        We do not outsource, we are directly involved in web app making. We are down to earth in hearing the needs of each and every individual, explain everything clearly before accepting the work.
+                        </p>
+                        <p>We collaborate and co-operate with our clients to complete works on time. Our team always fully understands the needs of the clients and makes things mutually clear about what is needed, how to be done and duration of the work before committing. </p>
+                        <button
+                                type="button"
+                                className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
+                            >
+                                VERY AFFORDABLE TOO
+                            </button>
                     </div>
                 </div>
             </section>
