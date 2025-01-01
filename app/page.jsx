@@ -8,6 +8,7 @@ import Icon4 from "./assets/svgs/icon4";
 import IconWhatsapp from "./assets/svgs/icconwhatsapp";
 import IconEmail from "./assets/svgs/IconEmail";
 import CustomButton from "./custom_button";
+import Image from "next/image";
 import Link from "next/link";
 
 const barlowf = Barlow({
@@ -279,14 +280,12 @@ const page = () => {
                         <div className="bg-white text-black p-10 flex flex-col justify-center items-center">
                             <div className="w-1/3 p-6">
                                 <IconWhatsapp />
-                            </div>{" "}
+                            </div>
                             {/* ------------ Whatsapp icon ---------- */}
                             <h3 className="text-[#999999] text-2xl">
                                 Whatsapp Us:
                             </h3>
-                            <p typeof="tel" className="">
-                                +91 94863 73838
-                            </p>
+                            <p typeof="tel">+91 94863 73838</p>
                         </div>
                     </div>
                     <div className="flex justify-between mt-10">

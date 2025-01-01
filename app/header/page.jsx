@@ -1,5 +1,5 @@
-"use client";
 import { Open_Sans } from "next/font/google";
+import Link from "next/link";
 import React from "react";
 
 
@@ -56,38 +56,34 @@ const Header = () => {
                         id="navbar-default"
                     >
                         <ul className="font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0  bg-purple-main md:bg-purple-main dark:border-gray-700">
-                            <li>
-                                <a
-                                    href="#"
+                            <li><Link href="/">
+                                <div
                                     className="block pb-2 md:bg-transparent md:text-[#29b7dd] dark:text-white md:dark:text-[#29b7dd] border border-[#29b7dd] border-t-0 border-l-0 border-r-0 border-b-2"
                                     aria-current="page"
                                 >
                                     HOME
-                                </a>
+                                </div></Link>
                             </li>
-                            <li>
-                                <a
-                                    href="#"
+                            <li><Link href="/AboutUs">
+                                <div
                                     className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >
                                     ABOUT US
-                                </a>
+                                </div></Link>
                             </li>
-                            <li>
-                                <a
-                                    href="#"
+                            <li><Link href="/HireUs">
+                                <div
                                     className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
                                 >
                                     HIRE US
-                                </a>
+                                </div></Link>
                             </li>
-                            <li>
-                                <a
-                                    href="#"
+                            <li><Link href="/">
+                                <div
                                     className="block py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent font-osans"
                                 >
                                     VCET
-                                </a>
+                                </div></Link>
                             </li>
                             {/* <li>
                                     <a

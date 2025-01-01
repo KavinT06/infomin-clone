@@ -1,6 +1,6 @@
 import { Geist, Geist_Mono,Open_Sans } from "next/font/google";
 import "./globals.css";
-import Header from "./header/page";
+import Header from "./Header/page";
 
 // const opensans = Open_Sans({
 //   subsets: ['latin'],
