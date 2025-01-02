@@ -1,4 +1,3 @@
-// "use client";
 import { Barlow, Roboto } from "next/font/google";
 import React from "react";
 import Icon1 from "./assets/svgs/icon1";
@@ -9,6 +8,7 @@ import IconWhatsapp from "./assets/svgs/icconwhatsapp";
 import IconEmail from "./assets/svgs/IconEmail";
 import CustomButton from "./custom_button";
 import Image from "next/image";
+import Img1 from "./assets/img/img1.jpg"
 import Link from "next/link";
 
 const barlowf = Barlow({
@@ -53,6 +53,8 @@ const page = () => {
                             src="https://www.infomin.solutions/static/images/ffffff1.jpg"
                             className="h-[550px] pt-7 pb-7 pl-14"
                         />
+                        {/* ---------------------example for image--------------------- */}
+                        {/* <Image src={Img1} width={100} height={100} alt="1" /> */}
                     </div>
                 </div>
             </section>

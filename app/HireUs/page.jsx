@@ -1,6 +1,14 @@
 import React from "react";
+import Form from "next/form";
+import { Barlow } from "next/font/google";
+
+const barlowf = Barlow({
+    weight: ["700", "400"],
+    subsets: ["latin"],
+});
 
 const page = () => {
+    
     return (
         <div>
             <section className="bg-[#3b065e] text-white">
@@ -49,6 +57,17 @@ const page = () => {
                                 satisfaction.
                             </p>
                             <h2>Follow us</h2>
+                        </div>
+                        <div className="bg-[#29b7dd]">
+                                <h1 className={`text-[#3c065e] text-center text-7xl ${barlowf.className}`}>Contact us For A Quote</h1>
+                            <div className="flex flex-row justify-center items-center">
+                                <Form action="/search">
+                                    <input type="name" className="m-5" />
+                                    <input name="query" className="m-5" />
+                                    <input name="query" className="m-5" />
+                                    <button type="submit">Submit</button>
+                                </Form>
+                            </div>
                         </div>
                     </div>
                 </div>
