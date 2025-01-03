@@ -8,7 +8,6 @@ const barlowf = Barlow({
 });
 
 const page = () => {
-    
     return (
         <div>
             <section className="bg-[#3b065e] text-white">
@@ -58,20 +57,29 @@ const page = () => {
                             </p>
                             <h2>Follow us</h2>
                         </div>
-                        <div className="bg-[#29b7dd]">
-                                <h1 className={`text-[#3c065e] text-center text-7xl ${barlowf.className}`}>Contact us For A Quote</h1>
-                            <div className="flex flex-row justify-center items-center">
-                                <Form action="/search">
-                                    <input type="name" className="m-5" />
-                                    <input name="query" className="m-5" />
-                                    <input name="query" className="m-5" />
-                                    <button type="submit">Submit</button>
+                        <div className="bg-[#29b7dd] h-screen rounded-xl">
+                            <div className="flex flex-col items-center justify-center">
+                                <h1
+                                    className={`text-[#3c065e] text-center text-5xl p-5 ${barlowf.className}`}
+                                >
+                                    Contact us For A <br /><span>Quote</span>
+                                </h1>
+                                <Form>
+                                <input type="text" placeholder="Enter your Name" className="m-5 py-2 px-36 rounded-xl"/><br />
+                                <input type="text" placeholder="Whatsapp Number (Optional)" className="m-5 py-2 px-36 rounded-xl"/><br />
+                                <input type="text" placeholder="Enter a valid email address" className="m-5 py-2 px-36 rounded-xl"/><br /> 
+                                <textarea name="" id="" placeholder="Enter your message" className="m-5 py-6 px-[153px] rounded-xl"></textarea><br />
+                                <button className="bg-[#3c065e] py-4 px-52 m-5 items-center">SUBMIT</button>
                                 </Form>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
+            <footer className="flex flex-col justify-center items-center bg-[#333333] text-white p-10">
+                <h3>Developed By Infomin Solutions</h3>
+                <h3>Copyright 2024. All Rights Reserved</h3>
+            </footer>
         </div>
     );
 };
