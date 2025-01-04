@@ -1,6 +1,10 @@
 import React from "react";
 import Form from "next/form";
+import Facebook from "../assets/svgs/Facebook";
+import Instagram from "../assets/svgs/Instagram";
 import { Barlow } from "next/font/google";
+import Linkedin from "../assets/svgs/Linkedin";
+import Youtube from "../assets/svgs/Youtube";
 
 const barlowf = Barlow({
     weight: ["700", "400"],
@@ -40,36 +44,88 @@ const page = () => {
             </section>
             <section className="bg-[#3b065e] text-[#29b7dd]">
                 <div className="mx-auto max-w-7xl pb-16 p-6 pt-0 lg:px-8">
-                    <div className="grid grid-cols-2 gap-10">
-                        <div>
-                            <h2>
-                                Why To Hire <span>INFOMIN SOLUTIONS?</span>
+                    <div className="grid grid-cols-2 ">
+                        <div className="py-10 w-9/12 ml-40">
+                            <h2 className="text-xl">
+                                Why To Hire <br />
+                                <span
+                                    className={`${barlowf.className} text-3xl font-bold`}
+                                >
+                                    INFOMIN SOLUTIONS?
+                                </span>
                             </h2>
-                            <h2>Very Affordable</h2>
-                            <h2>Highly Professional</h2>
-                            <h2>Client Friendly</h2>
-                            <p>
+                            <div
+                                className={`${barlowf.className} text-3xl font-bold my-5`}
+                            >
+                                <h2 className="my-5">Very Affordable</h2>
+                                <h2 className="my-5">Highly Professional</h2>
+                                <h2>Client Friendly</h2>
+                            </div>
+                            <p className="text-xl">
                                 Contact Us with your whatsapp number to get
                                 reply through whatsapp. Infomin Solutions team
                                 will hear you patiently, understand your needs
                                 perfectly and will work with you to your
                                 satisfaction.
                             </p>
-                            <h2>Follow us</h2>
+                            <h2
+                                className={`${barlowf.className} text-3xl font-bold my-5`}
+                            >
+                                Follow us
+                            </h2>
+                            <div className="flex fill-[#29b7dd] pt-2">
+                                <div className="w-7 mr-1">
+                                    <Facebook />
+                                </div>
+                                <div className="w-7 mx-1">
+                                    <Instagram />
+                                </div>
+                                <div className="w-7 mx-1">
+                                    <Linkedin />
+                                </div>
+                                <div className="w-7 mx-0">
+                                    <Youtube />
+                                </div>
+                            </div>
+                            <p className="text-lg my-10">©2023 Privacy policy</p>
                         </div>
-                        <div className="bg-[#29b7dd] h-screen rounded-xl">
+                        <div className="bg-[#29b7dd] pb-20 rounded-xl">
                             <div className="flex flex-col items-center justify-center">
                                 <h1
                                     className={`text-[#3c065e] text-center text-5xl p-5 ${barlowf.className}`}
                                 >
-                                    Contact us For A <br /><span>Quote</span>
+                                    Contact us For A <br />
+                                    <span>Quote</span>
                                 </h1>
                                 <Form>
-                                <input type="text" placeholder="Enter your Name" className="m-5 py-2 px-36 rounded-xl"/><br />
-                                <input type="text" placeholder="Whatsapp Number (Optional)" className="m-5 py-2 px-36 rounded-xl"/><br />
-                                <input type="text" placeholder="Enter a valid email address" className="m-5 py-2 px-36 rounded-xl"/><br /> 
-                                <textarea name="" id="" placeholder="Enter your message" className="m-5 py-6 px-[153px] rounded-xl"></textarea><br />
-                                <button className="bg-[#3c065e] py-4 px-52 m-5 items-center">SUBMIT</button>
+                                    <input
+                                        type="text"
+                                        placeholder="Enter your Name"
+                                        className="m-5 py-2 px-36 rounded-xl"
+                                    />
+                                    <br />
+                                    <input
+                                        type="text"
+                                        placeholder="Whatsapp Number (Optional)"
+                                        className="m-5 py-2 px-36 rounded-xl"
+                                    />
+                                    <br />
+                                    <input
+                                        type="text"
+                                        placeholder="Enter a valid email address"
+                                        className="m-5 py-2 px-36 rounded-xl"
+                                    />
+                                    <br />
+                                    <textarea
+                                        name=""
+                                        id=""
+                                        placeholder="Enter your message"
+                                        className="m-5 py-6 px-[153px] rounded-xl"
+                                    ></textarea>
+                                    <br />
+                                    <button className="bg-[#3c065e] py-4 px-52 m-5 items-center text-lg font-bold font-osans">
+                                        SUBMIT
+                                    </button>
                                 </Form>
                             </div>
                         </div>
