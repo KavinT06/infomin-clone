@@ -45,7 +45,7 @@ const page = () => {
             <section className="bg-[#3b065e] text-[#29b7dd]">
                 <div className="mx-auto max-w-7xl pb-16 p-6 pt-0 lg:px-8">
                     <div className="grid grid-cols-2 ">
-                        <div className="py-10 w-9/12 ml-40">
+                        <div className="py-10 w-9/12">
                             <h2 className="text-xl">
                                 Why To Hire <br />
                                 <span
@@ -87,47 +87,47 @@ const page = () => {
                                     <Youtube />
                                 </div>
                             </div>
-                            <p className="text-lg my-10">©2023 Privacy policy</p>
+                            <p className="text-lg my-10">
+                                ©2023 Privacy policy
+                            </p>
                         </div>
                         <div className="bg-[#29b7dd] pb-20 rounded-xl">
-                            <div className="flex flex-col items-center justify-center">
-                                <h1
-                                    className={`text-[#3c065e] text-center text-5xl p-5 ${barlowf.className}`}
-                                >
-                                    Contact us For A <br />
-                                    <span>Quote</span>
-                                </h1>
-                                <Form>
-                                    <input
-                                        type="text"
-                                        placeholder="Enter your Name"
-                                        className="m-5 py-2 px-36 rounded-xl"
-                                    />
-                                    <br />
-                                    <input
-                                        type="text"
-                                        placeholder="Whatsapp Number (Optional)"
-                                        className="m-5 py-2 px-36 rounded-xl"
-                                    />
-                                    <br />
-                                    <input
-                                        type="text"
-                                        placeholder="Enter a valid email address"
-                                        className="m-5 py-2 px-36 rounded-xl"
-                                    />
-                                    <br />
-                                    <textarea
-                                        name=""
-                                        id=""
-                                        placeholder="Enter your message"
-                                        className="m-5 py-6 px-[153px] rounded-xl"
-                                    ></textarea>
-                                    <br />
-                                    <button className="bg-[#3c065e] py-4 px-52 m-5 items-center text-lg font-bold font-osans">
-                                        SUBMIT
-                                    </button>
-                                </Form>
-                            </div>
+                            <h1
+                                className={`text-[#3c065e] text-center text-5xl p-5 ${barlowf.className}`}
+                            >
+                                Contact us For A <br />
+                                <span>Quote</span>
+                            </h1>
+                            <Form className="p-10 w-full">
+                                <input
+                                    type="text"
+                                    placeholder="Enter your Name"
+                                    className="my-5 p-2 w-full rounded-xl"
+                                />
+                                <br />
+                                <input
+                                    type="text"
+                                    placeholder="Whatsapp Number (Optional)"
+                                    className="my-5 p-2 w-full rounded-xl"
+                                />
+                                <br />
+                                <input
+                                    type="text"
+                                    placeholder="Enter a valid email address"
+                                    className="my-5 p-2 w-full rounded-xl"
+                                />
+                                <br />
+                                <textarea
+                                    name=""
+                                    id=""
+                                    placeholder="Enter your message"
+                                    className="my-5 p-3 w-full h-32 rounded-xl"
+                                ></textarea>
+                                <br />
+                                <button className="bg-[#3c065e] py-4 w-full my-5 items-center text-lg font-bold font-osans">
+                                    SUBMIT
+                                </button>
+                            </Form>
                         </div>
                     </div>
                 </div>

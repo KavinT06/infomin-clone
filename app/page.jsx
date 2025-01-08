@@ -8,7 +8,7 @@ import IconWhatsapp from "./assets/svgs/icconwhatsapp";
 import IconEmail from "./assets/svgs/IconEmail";
 import CustomButton from "./custom_button";
 import Image from "next/image";
-import Img1 from "./assets/img/img1.jpg"
+import Img1 from "./assets/img/img1.jpg";
 import Link from "next/link";
 
 const barlowf = Barlow({
@@ -23,41 +23,43 @@ const roboto = Roboto({
 const page = () => {
     return (
         <div>
-            <section className="bg-purple-main">
-                <div className={"flex justify-center"}>
-                    <div className={"w-[513px] h-[550px]"}>
-                        <h1
-                            className={`text-blue-bluee text-start text-5xl mt-[62px] font-custom`}
-                        >
-                            Infomin Solutions
-                        </h1>
-                        <p className="mt-[62px] text-lg text-white">
-                            We are a dedicated team who make dynamic websites
-                            and web based software solutions that are tailored
-                            to the needs of each and every businesses at a very
-                            affordable cost.
-                        </p>
-                        <p className="mt-[51px] mr-[95px] text-lg text-white">
-                            Need Website or Web Based Softwares ???
-                        </p>
-                        <button
-                            type="button"
-                            className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-5 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
-                        >
-                            Request a quote
-                        </button>
-                        {/* <CustomButton /> */}
-                    </div>
-                    <div className="w-[627px] h-[550px] text-center font-extrabold text-3xl">
-                        <img
-                            src="https://www.infomin.solutions/static/images/ffffff1.jpg"
-                            className="h-[550px] pt-7 pb-7 pl-14"
-                        />
-                        {/* ---------------------example for image--------------------- */}
-                        {/* <Image src={Img1} width={100} height={100} alt="1" /> */}
+            <section className="bg-[#3b065e] text-white">
+                <div className="page-container">
+                    <div className="grid grid-cols-2 gap-1">
+                        <div className="flex flex-col justify-center ml-10">
+                            <div className="w-4/6">
+                                <h1 className={`text-5xl font-custom mb-16 text-[#29b7dd]`}>
+                                    Infomin Solutions
+                                </h1>
+                                <p className="text-justify mb-10 text-lg font-osans">
+                                    We are a dedicated team who make dynamic
+                                    websites and web based software solutions that
+                                    are tailored to the needs of each and every
+                                    businesses at a very affordable cost.
+                                </p>
+                                <p className="text-lg font-osans">Need Website or Web Based Softwares ???</p>
+                                <button
+                                    type="button"
+                                    className="text-white bg-blue-bluee hover:bg-blue-b1dark focus:outline-none focus:ring-4 focus:ring-blue-300 rounded-full px-10 py-2.5 text-center me-2 mb-2 dark:bg-blue-bluee dark:hover:bg-blue-b1dark dark:focus:ring-blue-bluee mt-[46px] mr-auto font-bold text-base uppercase tracking-widest"
+                                >
+                                    Request a quote
+                                </button>
+                                {/* <CustomButton /> */}
+                            </div>
+                        </div>
+                        <div>
+                            <img
+                                src="https://www.infomin.solutions/static/images/ffffff1.jpg"
+                                alt="home"
+                                className="w-full object-cover"
+                            />
+                        </div>
                     </div>
                 </div>
             </section>
+            {/* ---------------------example for image--------------------- */}
+                        {/* <Image src={Img1} width={100} height={100} alt="1" /> */}
+
             <section className="bg-white mx-auto max-w-7xl py-16 p-6 lg:px-8">
                 <div>
                     <h1 className="text-5xl text-center">Why us?</h1>
