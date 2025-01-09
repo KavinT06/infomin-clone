@@ -27,7 +27,7 @@ const page = () => {
                 <div className="page-container">
                     <div className="grid grid-cols-2 gap-1">
                         <div className="flex flex-col justify-center ml-10">
-                            <div className="w-4/6">
+                            <div className="w-5/6">
                                 <h1 className={`text-5xl font-custom mb-16 text-[#29b7dd]`}>
                                     Infomin Solutions
                                 </h1>
@@ -125,7 +125,7 @@ const page = () => {
                             />
                         </div>
                         <div className="w-4/12">
-                            <div className="p-16">
+                            <div className="p-14 lg:p-10">
                                 <h1 className="font-bold text-xl">1.GOALS</h1>
                                 <p>
                                     Anyone can create a masterpiece but we
@@ -139,7 +139,7 @@ const page = () => {
                                     </h3>
                                 </Link>
                             </div>
-                            <div className="p-16">
+                            <div className="p-16 lg:p-8">
                                 <h1 className="font-bold text-xl">
                                     2.STRATEGY
                                 </h1>
@@ -165,6 +165,7 @@ const page = () => {
                         <img
                             src="https://www.infomin.solutions/static/images/Untitled-1-min1.jpg"
                             alt="web solutions"
+                            className="lg:flex justify-center"
                         />
                         <div className="p-12">
                             <h2
