@@ -18,7 +18,7 @@ const Header = () => {
                 {/* <nav className="bg-white "> */}
                 <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4 h-36">
                     <a
-                        href="https://flowbite.com/"
+                        href="/"
                         className="flex items-center space-x-3 rtl:space-x-reverse"
                     >
                         <img
