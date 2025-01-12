@@ -1,11 +1,12 @@
-import { Geist, Geist_Mono,Open_Sans } from "next/font/google";
+import { Geist, Geist_Mono,Open_Sans} from "next/font/google";
 import "./globals.css";
 import Header from "./Header/page";
 
-// const opensans = Open_Sans({
-//   subsets: ['latin'],
-//   weight: ['400'],
-// });
+const opensans = Open_Sans({
+  subsets: ['latin'],
+  weight: ["700"],
+  fallback: ['sans-serif'],
+});
 
 const geistSans = Geist({
   variable: "--font-geist-sans",

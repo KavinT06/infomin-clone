@@ -7,8 +7,8 @@ import Icon4 from "./assets/svgs/icon4";
 import IconWhatsapp from "./assets/svgs/icconwhatsapp";
 import IconEmail from "./assets/svgs/IconEmail";
 import CustomButton from "./custom_button";
-import Image from "next/image";
-import Img1 from "./assets/img/img1.jpg";
+//import Image from "next/image";
+//import Img1 from "./assets/img/img1.jpg";
 import Link from "next/link";
 
 const barlowf = Barlow({
