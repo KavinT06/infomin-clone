@@ -195,11 +195,13 @@ const page = () => {
             <section>
                 <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
                     <div className="md:grid grid-cols-2 gap-6">
-                            <img
-                                src="https://www.infomin.solutions/static/images/wh.jpg"
-                                alt="Order Whatsapp"
-                            />
-                        <div className="md:p-12 mt-5">
+                            <div className="md:order-2">
+                                <img
+                                    src="https://www.infomin.solutions/static/images/wh.jpg"
+                                    alt="Order Whatsapp"
+                                />
+                            </div>
+                        <div className="md:p-12 mt-5 md:order-1">
                             <h2
                                 className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
                             >
@@ -230,8 +232,8 @@ const page = () => {
                             >
                                 We are directly involved in the process
                             </h1>
-                            <div className="p-1 bg-[#00ccff] w-20 ml-10 mt-5"></div>
-                            <p className={`${barlowf.className} md:p-10 md:text-3xl text-2xl mt-5`}>
+                            <div className="p-1 bg-[#00ccff] w-20 ml-10 mt-5 sm:mt-0"></div>
+                            <p className={`${barlowf.className} md:p-10 md:text-3xl text-2xl mt-5 sm:mt-0`}>
                                 We make beautiful websites, user-friendly web
                                 apps and dynamic web based softwares.
                             </p>
@@ -284,8 +286,7 @@ const page = () => {
                                 </h4>
                             </Link>
                         </div>
-                        <br />
-                        <div className="bg-white text-black p-10 flex flex-col justify-center items-center">
+                        <div className="bg-white text-black p-10 mt-10 flex flex-col justify-center items-center sm:mt-0">
                             <div className="md:w-1/3 md:p-6 w-full p-12">
                                 <IconWhatsapp />
                             </div>
@@ -296,7 +297,7 @@ const page = () => {
                             <p typeof="tel">+91 94863 73838</p>
                         </div>
                     </div>
-                    <div className="md:lex justify-between mt-10">
+                    <div className="md:flex justify-between mt-10">
                         <h2>Privacy Policy</h2>
                         <h2>Refund, Cancellation, Return, Shipping Policy</h2>
                         <h2>Terms & Conditions</h2>
