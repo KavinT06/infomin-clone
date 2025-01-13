@@ -25,10 +25,10 @@ const page = () => {
         <div>
             <section className="bg-[#3b065e] text-white">
                 <div className="page-container">
-                    <div className="grid grid-cols-2 gap-1">
-                        <div className="flex flex-col justify-center ml-10">
+                    <div className="md:grid grid-cols-2 gap-1">
+                        <div className="md:flex flex-col justify-center ml-10">
                             <div className="w-5/6">
-                                <h1 className={`text-5xl font-custom mb-16 text-[#29b7dd]`}>
+                                <h1 className={`text-3xl text-center mb-10 font-custom lg:text-5xl lg:mb-16 lg:text-left text-[#29b7dd]`}>
                                     Infomin Solutions
                                 </h1>
                                 <p className="text-justify mb-10 text-lg font-osans">
@@ -67,18 +67,18 @@ const page = () => {
                         No need to have a second thought because we specialize
                         in the following niches
                     </p>
-                    <div className="grid grid-cols-2 gap-6 mt-10">
+                    <div className="md:grid grid-cols-2 gap-6 mt-10">
                         <img
                             src="https://www.infomin.solutions/static/images/1.jpg"
                             alt="1"
                             className="w-full aspect-square object-cover"
                         />
-                        <div className="grid grid-cols-2 gap-6">
+                        <div className="md:grid grid-cols-2 gap-6">
                             <div className="bg-[#1C82B1] aspect-square flex flex-col justify-center items-center">
-                                <div className="w-1/4  p-3 aspect-square bg-[#29B7DD] rounded-lg">
+                                <div className="w-1/4 p-3 aspect-square bg-[#29B7DD] rounded-lg">
                                     <Icon1 />
                                 </div>
-                                <span className="text-2xl m-3 text-white">
+                                <span className="text-2xl m-3 text-white my-2">
                                     Development
                                 </span>
                             </div>
@@ -112,21 +112,21 @@ const page = () => {
             </section>
             <section className="bg-[#3b065e] text-white">
                 <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="flex">
-                        <div className="w-8/12">
-                            <h3
-                                className={`font-bold text-6xl ${barlowf.className}`}
-                            >
+                    <div className="md:flex">
+                        <div className="md:w-8/12">
+                            <h2
+                                className={`font-bold md:text-6xl text-2xl ${barlowf.className}`}>
                                 Web Software Developers
-                            </h3>
+                            </h2>
                             <img
                                 src="https://www.infomin.solutions/static/images/ssssss.jpg"
                                 alt="Development"
+                                className="mt-5"
                             />
                         </div>
-                        <div className="w-4/12">
-                            <div className="p-14 lg:p-10">
-                                <h1 className="font-bold text-xl">1.GOALS</h1>
+                        <div className="md:w-4/12">
+                            <div className="md:p-16 lg:p-10">
+                                <h1 className="font-bold text-xl mt-5">1.GOALS</h1>
                                 <p>
                                     Anyone can create a masterpiece but we
                                     always focus on being user-friendly - Yes,
@@ -139,8 +139,8 @@ const page = () => {
                                     </h3>
                                 </Link>
                             </div>
-                            <div className="p-16 lg:p-8">
-                                <h1 className="font-bold text-xl">
+                            <div className="md:p-16 mt-5 lg:p-8">
+                                <h1 className="font-bold text-xl mt-5">
                                     2.STRATEGY
                                 </h1>
                                 <p>
@@ -160,16 +160,18 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="grid grid-cols-2 gap-6">
-                        <img
-                            src="https://www.infomin.solutions/static/images/Untitled-1-min1.jpg"
-                            alt="web solutions"
-                            className="lg:flex justify-center"
-                        />
-                        <div className="p-12">
+                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                    <div className="md:grid grid-cols-2 gap-6">
+                        <div className="flex justify-center">
+                            <img
+                                src="https://www.infomin.solutions/static/images/Untitled-1-min1.jpg"
+                                alt="web solutions"
+                                className="object-contain"
+                            />
+                        </div>
+                        <div className="md:p-12">
                             <h2
-                                className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
+                                className={`text-[#00ccff] ${roboto.className} md:text-5xl font-extrabold mb-5 text-3xl text-center`}
                             >
                                 All Web Solutions
                             </h2>
@@ -191,9 +193,13 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="grid grid-cols-2 gap-6">
-                        <div className="p-12">
+                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                    <div className="md:grid grid-cols-2 gap-6">
+                            <img
+                                src="https://www.infomin.solutions/static/images/wh.jpg"
+                                alt="Order Whatsapp"
+                            />
+                        <div className="md:p-12 mt-5">
                             <h2
                                 className={`text-[#00ccff] ${roboto.className} text-5xl font-extrabold mb-5`}
                             >
@@ -212,29 +218,25 @@ const page = () => {
                                 CLICK TO KNOW MORE
                             </button>
                         </div>
-                        <img
-                            src="https://www.infomin.solutions/static/images/wh.jpg"
-                            alt="Order Whatsapp"
-                        />
                     </div>
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="grid grid-cols-2 gap-6">
+                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                    <div className="md:grid grid-cols-2 gap-6">
                         <div>
                             <h1
-                                className={`${barlowf.className} text-5xl p-10`}
+                                className={`${barlowf.className} text-4xl md:text-5xl md:p-10`}
                             >
                                 We are directly involved in the process
                             </h1>
-                            <div className="p-1 bg-[#00ccff] w-20 ml-10"></div>
-                            <p className={`${barlowf.className} p-10 text-3xl`}>
+                            <div className="p-1 bg-[#00ccff] w-20 ml-10 mt-5"></div>
+                            <p className={`${barlowf.className} md:p-10 md:text-3xl text-2xl mt-5`}>
                                 We make beautiful websites, user-friendly web
                                 apps and dynamic web based softwares.
                             </p>
                         </div>
-                        <div className="text-base p-12">
+                        <div className="text-base md:p-12 mt-5">
                             <p className="mb-8">
                                 We do not outsource, we are directly involved in
                                 web app making. We are down to earth in hearing
@@ -265,9 +267,9 @@ const page = () => {
                     <p className="text-lg text-center m-6">
                         We are easily accessible and always client-friendly
                     </p>
-                    <div className="grid grid-cols-2 gap-4">
+                    <div className="md:grid grid-cols-2 gap-4">
                         <div className="bg-white text-black p-10 flex flex-col items-center justify-center">
-                            <div className="w-1/3 p-6">
+                            <div className="md:w-1/3 md:p-6 w-full p-12">
                                 <IconEmail />
                             </div>
                             <p className="text-[#999999] text-2xl">Email Us:</p>
@@ -282,8 +284,9 @@ const page = () => {
                                 </h4>
                             </Link>
                         </div>
+                        <br />
                         <div className="bg-white text-black p-10 flex flex-col justify-center items-center">
-                            <div className="w-1/3 p-6">
+                            <div className="md:w-1/3 md:p-6 w-full p-12">
                                 <IconWhatsapp />
                             </div>
                             {/* ------------ Whatsapp icon ---------- */}
@@ -293,14 +296,14 @@ const page = () => {
                             <p typeof="tel">+91 94863 73838</p>
                         </div>
                     </div>
-                    <div className="flex justify-between mt-10">
+                    <div className="md:lex justify-between mt-10">
                         <h2>Privacy Policy</h2>
                         <h2>Refund, Cancellation, Return, Shipping Policy</h2>
                         <h2>Terms & Conditions</h2>
                     </div>
                 </div>
             </section>
-            <footer className="flex flex-col justify-center items-center bg-[#333333] text-white p-10">
+            <footer className="md:flex flex-col justify-center items-center bg-[#333333] text-white p-10">
                 <h3>Developed By Infomin Solutions</h3>
                 <h3>Copyright 2024. All Rights Reserved</h3>
             </footer>
