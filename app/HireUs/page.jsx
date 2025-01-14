@@ -15,8 +15,8 @@ const page = () => {
     return (
         <div>
             <section className="bg-[#3b065e] text-white">
-                <div className="mx-auto max-w-7xl pb-16 p-6 pt-0 lg:px-8">
-                    <div className="grid grid-cols-2 gap-10">
+                <div className="mx-auto max-w-7xl md:pb-16 md:p-6 pt-0 lg:px-8">
+                    <div className="md:grid grid-cols-2 gap-10">
                         <div className="flex flex-col items-start p-5 justify-center">
                             <h1
                                 className={`text-[#00ccff] text-5xl font-custom`}
@@ -44,7 +44,7 @@ const page = () => {
             </section>
             <section className="bg-[#3b065e] text-[#29b7dd]">
                 <div className="mx-auto max-w-7xl pb-16 p-6 pt-0 lg:px-8">
-                    <div className="grid grid-cols-2 ">
+                    <div className="md:grid grid-cols-2">
                         <div className="py-10 w-9/12">
                             <h2 className="text-xl">
                                 Why To Hire <br />
@@ -91,14 +91,14 @@ const page = () => {
                                 ©2023 Privacy policy
                             </p>
                         </div>
-                        <div className="bg-[#29b7dd] pb-20 rounded-xl">
+                        <div className="bg-[#29b7dd] md:pb-20 rounded-xl">
                             <h1
                                 className={`text-[#3c065e] text-center text-5xl p-5 ${barlowf.className}`}
                             >
                                 Contact us For A <br />
                                 <span>Quote</span>
                             </h1>
-                            <Form className="p-10 w-full">
+                            <Form className="md:p-10 p-2 w-full">
                                 <input
                                     type="text"
                                     placeholder="Enter your Name"
@@ -132,7 +132,7 @@ const page = () => {
                     </div>
                 </div>
             </section>
-            <footer className="flex flex-col justify-center items-center bg-[#333333] text-white p-10">
+            <footer className="md:flex flex-col justify-center items-center bg-[#333333] text-white p-10">
                 <h3>Developed By Infomin Solutions</h3>
                 <h3>Copyright 2024. All Rights Reserved</h3>
             </footer>
