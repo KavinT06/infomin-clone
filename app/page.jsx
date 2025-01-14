@@ -112,20 +112,20 @@ const page = () => {
             </section>
             <section className="bg-[#3b065e] text-white">
                 <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                    <div className="md:flex">
+                    <div className="md:flex justify-center items-center">
                         <div className="md:w-8/12">
                             <h2
-                                className={`font-bold md:text-6xl text-2xl ${barlowf.className}`}>
+                                className={`font-bold md:text-6xl text-2xl text-center md:text-left ${barlowf.className}`}>
                                 Web Software Developers
                             </h2>
                             <img
                                 src="https://www.infomin.solutions/static/images/ssssss.jpg"
                                 alt="Development"
-                                className="mt-5"
+                                className="mt-5 xl:w-9/12 md:w-11/12"
                             />
                         </div>
                         <div className="md:w-4/12">
-                            <div className="md:p-16 lg:p-10">
+                            <div className="md:p-8 lg:p-10">
                                 <h1 className="font-bold text-xl mt-5">1.GOALS</h1>
                                 <p>
                                     Anyone can create a masterpiece but we
@@ -139,7 +139,7 @@ const page = () => {
                                     </h3>
                                 </Link>
                             </div>
-                            <div className="md:p-16 mt-5 lg:p-8">
+                            <div className="md:p-8 mt-5 lg:p-8">
                                 <h1 className="font-bold text-xl mt-5">
                                     2.STRATEGY
                                 </h1>
@@ -160,7 +160,7 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                <div className="mx-auto max-w-7xl 2xl:py-16 p-6 lg:px-8">
                     <div className="md:grid grid-cols-2 gap-6">
                         <div className="flex justify-center">
                             <img
@@ -193,12 +193,13 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                <div className="mx-auto max-w-7xl 2xl:py-16 p-6 lg:px-8">
                     <div className="md:grid grid-cols-2 gap-6">
-                            <div className="md:order-2">
+                            <div className="md:order-2 md:flex justify-center">
                                 <img
                                     src="https://www.infomin.solutions/static/images/wh.jpg"
                                     alt="Order Whatsapp"
+                                    className="object-contain"
                                 />
                             </div>
                         <div className="md:p-12 mt-5 md:order-1">
@@ -224,7 +225,7 @@ const page = () => {
                 </div>
             </section>
             <section>
-                <div className="mx-auto max-w-7xl md:py-16 p-6 lg:px-8">
+                <div className="mx-auto max-w-7xl 2xl:py-16 p-6 lg:px-8">
                     <div className="md:grid grid-cols-2 gap-6">
                         <div>
                             <h1
