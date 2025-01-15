@@ -1,6 +1,6 @@
+import React from "react";
 import { Open_Sans } from "next/font/google";
 import Link from "next/link";
-import React from "react";
 
 
 const opensans = Open_Sans({
