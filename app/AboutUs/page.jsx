@@ -21,7 +21,7 @@ const page = () => {
                         </button>
                     </div>
                     <div>
-                        <h1>img</h1>
+                        <h1></h1>
                     </div>
                 </div>
             </div>
