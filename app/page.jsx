@@ -1,18 +1,15 @@
-"use client";
 import { Barlow, Roboto } from "next/font/google";
 import React from "react";
-import dynamic from 'next/dynamic';
+import Icon1 from "./assets/svgs/icon1";
+import Icon2 from "./assets/svgs/icon2";
+import Icon3 from "./assets/svgs/icon3";
+import Icon4 from "./assets/svgs/icon4";
 import IconWhatsapp from "./assets/svgs/icconwhatsapp";
 import IconEmail from "./assets/svgs/IconEmail";
 import CustomButton from "./custom_button";
 //import Image from "next/image";
 //import Img1 from "./assets/img/img1.jpg";
 import Link from "next/link";
-
-const Icon1 = dynamic(() => import('./assets/svgs/icon1'), { ssr: false });
-const Icon2 = dynamic(() => import('./assets/svgs/icon2'), { ssr: false });
-const Icon3 = dynamic(() => import('./assets/svgs/icon3'), { ssr: false });
-const Icon4 = dynamic(() => import('./assets/svgs/icon4'), { ssr: false });
 
 const barlowf = Barlow({
     weight: ["700", "400"],
