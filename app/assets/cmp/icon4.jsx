@@ -5,11 +5,8 @@ const Icon4 = () => {
     return (
         <>
             <svg
-                className="u-svg-content fill-white"
+                className="fill-white"
                 viewBox="0 0 512.001 512.001"
-                x="0px"
-                y="0px"
-                id="svg-1883"
             >
                 <g>
                     <g>

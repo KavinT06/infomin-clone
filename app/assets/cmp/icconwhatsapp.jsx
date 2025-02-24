@@ -6,11 +6,11 @@ const IconWhatsapp = () => {
     return (
         <>
                 <svg
-                    className="u-svg-content fill-[#999999] p-5"
+                    className="fill-[#999999] p-5"
                     viewBox="0 0 52 52"
-                    x="0px"
-                    y="0px"
-                    id="svg-0d5b"
+                    // x="0px"
+                    // y="0px"
+                    // id="svg-0d5b"
                     // style="enable-background:new 0 0 52 52;"
                 >
                     <g>

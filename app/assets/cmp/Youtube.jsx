@@ -5,11 +5,7 @@ const Youtube = () => {
     return (
         <>
             <svg
-                className="u-svg-content"
                 viewBox="0 0 512 512"
-                x="0px"
-                y="0px"
-                id="svg-acae"
             >
                 <g>
                     <g>
