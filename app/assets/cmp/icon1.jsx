@@ -4,7 +4,7 @@ import React from "react";
 const Icon1 = () => {
     return (
         <>
-            <svg xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink" version="1.1" xmlSpace="preserve" className="u-svg-content fill-white h-full w-full" viewBox="0 0 512 512" id="svg-a352">
+            <svg xmlns="http://www.w3.org/2000/svg" className="fill-white h-full w-full" viewBox="0 0 512 512">
                 <g>
                     <path d="m497 26h-482c-8.284 0-15 6.716-15 15v340c0 8.284 6.716 15 15 15h181v60h-15c-8.284 0-15 6.716-15 15s6.716 15 15 15h150c8.284 0 15-6.716 15-15s-6.716-15-15-15h-15v-60h181c8.284 0 15-6.716 15-15v-340c0-8.284-6.716-15-15-15zm-15 30v240h-452v-240zm-196 400h-60v-60h60zm-256-90v-40h452v40z"></path>
                     <path d="m223.381 258.012c1.818.724 3.694 1.066 5.539 1.066 5.964 0 11.604-3.581 13.942-9.46l54.15-136.147c3.062-7.697-.697-16.42-8.395-19.481-7.698-3.063-16.42.697-19.481 8.395l-54.15 136.148c-3.061 7.696.698 16.417 8.395 19.479z"></path>
