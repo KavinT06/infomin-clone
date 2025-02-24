@@ -1,11 +1,11 @@
 import { Barlow, Roboto } from "next/font/google";
 import React from "react";
-import Icon1 from "./assets/svgs/icon1";
-import Icon2 from "./assets/svgs/icon2";
-import Icon3 from "./assets/svgs/icon3";
-import Icon4 from "./assets/svgs/icon4";
-import IconWhatsapp from "./assets/svgs/icconwhatsapp";
-import IconEmail from "./assets/svgs/IconEmail";
+import Icon1 from "./assets/cmp/icon1";
+import Icon2 from "./assets/cmp/icon2";
+import Icon3 from "./assets/cmp/icon3";
+import Icon4 from "./assets/cmp/icon4";
+import IconWhatsapp from "./assets/cmp/icconwhatsapp";
+import IconEmail from "./assets/cmp/IconEmail";
 import CustomButton from "./custom_button";
 //import Image from "next/image";
 //import Img1 from "./assets/img/img1.jpg";

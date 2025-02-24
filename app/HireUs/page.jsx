@@ -1,10 +1,10 @@
 import React from "react";
 import Form from "next/form";
-import Facebook from "../assets/svgs/Facebook";
-import Instagram from "../assets/svgs/Instagram";
+import Facebook from "../assets/cmp/Facebook";
+import Instagram from "../assets/cmp/Instagram";
 import { Barlow } from "next/font/google";
-import Linkedin from "../assets/svgs/Linkedin";
-import Youtube from "../assets/svgs/Youtube";
+import Linkedin from "../assets/cmp/Linkedin";
+import Youtube from "../assets/cmp/Youtube";
 
 const barlowf = Barlow({
     weight: ["700", "400"],

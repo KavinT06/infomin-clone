@@ -1,0 +1,10 @@
+export {default as icon1} from "@/app/assets/cmp/icon1";
+export {default as icon2} from "@/app/assets/cmp/icon2";
+export {default as icon3} from "@/app/assets/cmp/icon3";
+export {default as icon4} from "@/app/assets/cmp/icon4";
+export {default as Facebook} from "@/app/assets/cmp/Facebook";
+export {default as icconwhatsapp} from "@/app/assets/cmp/icconwhatsapp";
+export {default as IconEmail} from "@/app/assets/cmp/IconEmail";
+export {default as Instagram} from "@/app/assets/cmp/Instagram";
+export {default as Linkedin} from "@/app/assets/cmp/Linkedin";
+export {default as Youtube} from "@/app/assets/cmp/Youtube";
