@@ -20,7 +20,7 @@ const roboto = Roboto({
     weight: ["400", "500", "700"],
     subsets: ["latin"],
 });
-const page = () => {
+const HomePage = () => {
     return (
         <div>
             <section className="bg-[#3b065e] text-white">
@@ -50,7 +50,7 @@ const page = () => {
                         <div>
                             <img
                                 src="https://www.infomin.solutions/static/images/ffffff1.jpg"
-                                alt="home"
+                                alt="Infomin Solutions - Web Development Services"
                                 className="w-full object-cover"
                             />
                         </div>
@@ -70,7 +70,7 @@ const page = () => {
                     <div className="md:grid grid-cols-2 gap-6 mt-10">
                         <img
                             src="https://www.infomin.solutions/static/images/1.jpg"
-                            alt="1"
+                            alt="Web Development Team at Work"
                             className="w-full aspect-square object-cover"
                         />
                         <div className="md:grid grid-cols-2 gap-6">
@@ -120,7 +120,7 @@ const page = () => {
                             </h2>
                             <img
                                 src="https://www.infomin.solutions/static/images/ssssss.jpg"
-                                alt="Development"
+                                alt="Software Development Process"
                                 className="mt-5 xl:w-9/12 md:w-11/12"
                             />
                         </div>
@@ -165,7 +165,7 @@ const page = () => {
                         <div className="flex justify-center">
                             <img
                                 src="https://www.infomin.solutions/static/images/Untitled-1-min1.jpg"
-                                alt="web solutions"
+                                alt="Comprehensive Web Solutions"
                                 className="object-contain"
                             />
                         </div>
@@ -198,7 +198,7 @@ const page = () => {
                             <div className="md:order-2 md:flex justify-center">
                                 <img
                                     src="https://www.infomin.solutions/static/images/wh.jpg"
-                                    alt="Order Whatsapp"
+                                    alt="WhatsApp E-commerce Solution"
                                     className="object-contain"
                                 />
                             </div>
@@ -295,7 +295,7 @@ const page = () => {
                             <h3 className="text-[#999999] text-2xl">
                                 Whatsapp Us:
                             </h3>
-                            <p typeof="tel">+91 94863 73838</p>
+                            <a href="tel:+919486373838" className="text-black hover:text-blue-600">+91 94863 73838</a>
                         </div>
                     </div>
                     <div className="md:flex justify-between mt-10">
@@ -313,4 +313,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default HomePage;

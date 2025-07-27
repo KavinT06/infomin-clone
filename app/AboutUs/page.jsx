@@ -1,16 +1,15 @@
 import React from "react";
 
-const page = () => {
+const AboutUs = () => {
     return (
-        <div className="bg-[#3b065e] h-screen text-white">
+        <div className="bg-[#3b065e] min-h-screen text-white">
             <div className="mx-auto max-w-7xl py-16 p-6 lg:px-8">
-                <div className="grid grid-cols-2 gap-2">
+                <div className="grid grid-cols-1 md:grid-cols-2 gap-2">
                     <div className="flex flex-col justify-center items-center">
-                        {/* <h1>Hello!</h1> */}
-                        <h1 className={`text-[#00ccff] text-5xl font-custom`}>
+                        <h1 className="text-[#00ccff] text-5xl font-custom">
                             Infomin Solutions
                         </h1>
-                        <p className="text-lg">
+                        <p className="text-lg mt-4">
                             Need Website or Web Based Softwares ???
                         </p>
                         <button
@@ -29,4 +28,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default AboutUs;

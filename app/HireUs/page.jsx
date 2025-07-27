@@ -11,7 +11,7 @@ const barlowf = Barlow({
     subsets: ["latin"],
 });
 
-const page = () => {
+const HireUs = () => {
     return (
         <div>
             <section className="bg-[#3b065e] text-white">
@@ -36,7 +36,8 @@ const page = () => {
                         <div>
                             <img
                                 src="https://www.infomin.solutions/static/images/ffffff1.jpg"
-                                alt="home img"
+                                alt="Professional Web Development Services"
+                                className="w-full object-cover"
                             />
                         </div>
                     </div>
@@ -140,4 +141,4 @@ const page = () => {
     );
 };
 
-export default page;
+export default HireUs;
