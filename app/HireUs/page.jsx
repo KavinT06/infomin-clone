@@ -1,9 +1,9 @@
 import React from "react";
-import Facebook from "../assets/cmp/Facebook";
-import Instagram from "../assets/cmp/Instagram";
+import Facebook from "../../components/icons/Facebook";
+import Instagram from "../../components/icons/Instagram";
 import { Barlow } from "next/font/google";
-import Linkedin from "../assets/cmp/Linkedin";
-import Youtube from "../assets/cmp/Youtube";
+import Linkedin from "../../components/icons/Linkedin";
+import Youtube from "../../components/icons/Youtube";
 
 const barlowf = Barlow({
     weight: ["400", "700"],
@@ -99,7 +99,7 @@ const HireUs = () => {
                                 Contact us For A <br />
                                 <span>Quote</span>
                             </h1>
-                            <Form className="md:p-10 p-2 w-full">
+                            <form className="md:p-10 p-2 w-full">
                                 <input
                                     type="text"
                                     placeholder="Enter your Name"
@@ -128,7 +128,7 @@ const HireUs = () => {
                                 <button className="bg-[#3c065e] py-4 w-full my-5 items-center text-lg font-bold font-osans">
                                     SUBMIT
                                 </button>
-                            </Form>
+                            </form>
                         </div>
                     </div>
                 </div>

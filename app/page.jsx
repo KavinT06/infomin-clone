@@ -1,12 +1,12 @@
 import { Barlow, Roboto } from "next/font/google";
 import React from "react";
-import Icon1 from "./assets/cmp/icon1";
-import Icon2 from "./assets/cmp/icon2";
-import Icon3 from "./assets/cmp/icon3";
-import Icon4 from "./assets/cmp/icon4";
-import IconWhatsapp from "./assets/cmp/icconwhatsapp";
-import IconEmail from "./assets/cmp/IconEmail";
-import CustomButton from "./custom_button";
+import Icon1 from "../components/icons/Icon1";
+import Icon2 from "../components/icons/Icon2";
+import Icon3 from "../components/icons/Icon3";
+import Icon4 from "../components/icons/Icon4";
+import IconWhatsapp from "../components/icons/IconWhatsapp";
+import IconEmail from "../components/icons/IconEmail";
+import CustomButton from "../components/CustomButton";
 import Link from "next/link";
 
 const barlowf = Barlow({
