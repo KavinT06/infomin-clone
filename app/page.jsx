@@ -7,18 +7,18 @@ import Icon4 from "./assets/cmp/icon4";
 import IconWhatsapp from "./assets/cmp/icconwhatsapp";
 import IconEmail from "./assets/cmp/IconEmail";
 import CustomButton from "./custom_button";
-//import Image from "next/image";
-//import Img1 from "./assets/img/img1.jpg";
 import Link from "next/link";
 
 const barlowf = Barlow({
-    weight: ["700", "400"],
+    weight: ["400", "700"],
     subsets: ["latin"],
+    display: "swap",
 });
 
 const roboto = Roboto({
     weight: ["400", "500", "700"],
     subsets: ["latin"],
+    display: "swap",
 });
 const HomePage = () => {
     return (

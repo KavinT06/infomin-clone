@@ -7,16 +7,19 @@ const opensans = Open_Sans({
   weight: ["400", "700"],
   variable: "--font-opensans",
   fallback: ['sans-serif'],
+  display: 'swap',
 });
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
+  display: 'swap',
 });
 
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+  display: 'swap',
 });
 
 export const metadata = {

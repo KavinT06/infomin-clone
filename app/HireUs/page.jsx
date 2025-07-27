@@ -1,5 +1,4 @@
 import React from "react";
-import Form from "next/form";
 import Facebook from "../assets/cmp/Facebook";
 import Instagram from "../assets/cmp/Instagram";
 import { Barlow } from "next/font/google";
@@ -7,8 +6,9 @@ import Linkedin from "../assets/cmp/Linkedin";
 import Youtube from "../assets/cmp/Youtube";
 
 const barlowf = Barlow({
-    weight: ["700", "400"],
+    weight: ["400", "700"],
     subsets: ["latin"],
+    display: "swap",
 });
 
 const HireUs = () => {
